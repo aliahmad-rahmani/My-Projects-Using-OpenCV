@@ -85,20 +85,3 @@ The repository represents the progression from fundamental image processing tech
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── Adaptive-thresholding.ipynb
-├── Advanced-histogram-equalization-CLAHE.ipynb
-├── Counting Objects with OpenCV.py
-├── Document-scanning.ipynb
-├── English-Alphabet-classification-UCI-dataset.ipynb
-├── English-digit-classification-with-knn.ipynb
-├── Finding-objects-with-feature-matching-and-homography.ipynb
-├── Multiple-object-tracking.ipynb
-├── Otsu-binarization.ipynb
-├── Sharpen_image.ipynb
-├── gamma-correction.py
-├── optical-flow.ipynb
-└── persian-digit-classification-with-knn.ipynb
