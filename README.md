@@ -1,24 +1,104 @@
-Why we need to learn OpenCV: OpenCV is a powerful library that offers a wide range of features and applications in the field of computer vision and image processing. Learning OpenCV with Python can provide you with valuable skills for developing innovative solutions in various domains.
+# Computer Vision Toolkit
 
-OpenCV (Open Source Computer Vision) is a popular open-source library for computer vision and image processing tasks. It provides a wide range of functionalities for image and video analysis, including object detection, facial recognition, machine learning, and more. Here are some key features, advantages, and applications of the OpenCV library:
+### Practical Computer Vision & Image Processing Implementations
 
-Features:
-1. Image Processing: OpenCV offers various tools and algorithms for image processing tasks such as filtering, edge detection, image transformations, and color manipulation.
-2. Object Detection: OpenCV includes pre-trained models and algorithms for object detection, face detection, pedestrian detection, and other computer vision tasks.
-3. Machine Learning: OpenCV integrates with machine learning libraries like TensorFlow and PyTorch to build and train custom models for image classification, object recognition, and more.
-4. Camera Calibration: OpenCV provides tools for camera calibration, including intrinsic and extrinsic parameters estimation, which is essential for accurate image analysis.
-5. Video Analysis: OpenCV supports video processing tasks such as video stabilization, motion tracking, and background subtraction.
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv&logoColor=white)](https://opencv.org/)
+[![Computer Vision](https://img.shields.io/badge/Domain-Computer%20Vision-orange)]()
+[![Image Processing](https://img.shields.io/badge/Focus-Image%20Processing-purple)]()
 
-Advantages:
-1. Open-source: OpenCV is freely available under the BSD license, making it accessible to developers and researchers for both commercial and non-commercial projects.
-2. Cross-platform: OpenCV is compatible with various operating systems, including Windows, macOS, Linux, iOS, and Android, allowing for seamless deployment across different platforms.
-3. Extensive Documentation: OpenCV has comprehensive documentation and a large community of developers, making it easier to learn and troubleshoot issues.
-4. Performance Optimization: OpenCV is optimized for speed and efficiency, with support for hardware acceleration using GPUs and parallel processing techniques.
+> A collection of hands-on computer vision and image processing implementations developed while studying and experimenting with classical and machine-learning-based vision algorithms.
 
-Applications:
-1. Face Recognition: OpenCV is widely used in facial recognition systems for security applications, access control, and biometric authentication.
-2. Object Tracking: OpenCV is used in surveillance systems, robotics, and augmented reality applications for tracking objects in real-time.
-3. Medical Imaging: OpenCV is applied in medical imaging for tasks like image segmentation, tumor detection, and diagnostic analysis.
-4. Autonomous Vehicles: OpenCV is used in self-driving cars for lane detection, object recognition, and obstacle avoidance.
-5. Augmented Reality: OpenCV is utilized in AR applications for overlaying digital content on real-world images or videos.
+---
 
+## Overview
+
+This repository contains a collection of practical computer vision experiments, image processing techniques, and machine learning implementations developed using Python and OpenCV.
+
+The projects cover fundamental image processing operations as well as higher-level computer vision tasks including image enhancement, segmentation, feature matching, optical flow, object tracking, document scanning, and image classification.
+
+The repository represents the progression from fundamental image processing techniques toward more advanced computer vision systems.
+
+---
+
+## Computer Vision & Image Processing Topics
+
+### Image Enhancement
+
+- Gamma Correction
+- Image Sharpening
+- Contrast Enhancement
+- CLAHE
+- Histogram-based enhancement
+
+### Image Segmentation
+
+- Otsu Thresholding
+- Adaptive Thresholding
+- Binary Image Segmentation
+
+### Feature Detection & Matching
+
+- Feature Matching
+- Homography
+- Object Localization
+
+### Motion Analysis
+
+- Optical Flow
+- Multiple Object Tracking
+
+### Object Analysis
+
+- Object Counting
+- Object Detection
+
+### Machine Learning
+
+- K-Nearest Neighbors (KNN)
+- Digit Classification
+- Alphabet Classification
+
+### Document Processing
+
+- Document Scanning
+- Perspective Transformation
+
+---
+
+## Selected Implementations
+
+| Project | Main Concept | Technology |
+|---|---|---|
+| Adaptive Thresholding | Image Segmentation | Python / OpenCV |
+| CLAHE | Contrast Enhancement | Python / OpenCV |
+| Otsu Binarization | Threshold-based Segmentation | Python / OpenCV |
+| Gamma Correction | Image Enhancement | Python / OpenCV |
+| Image Sharpening | Spatial Filtering | Python / OpenCV |
+| Feature Matching & Homography | Feature-Based Vision | Python / OpenCV |
+| Optical Flow | Motion Estimation | Python / OpenCV |
+| Multiple Object Tracking | Object Tracking | Python / OpenCV |
+| Object Counting | Object Analysis | Python / OpenCV |
+| Document Scanning | Perspective Transformation | Python / OpenCV |
+| KNN Digit Classification | Machine Learning | Python |
+| Alphabet Classification | Machine Learning | Python |
+
+---
+
+## Repository Structure
+
+```text
+.
+├── Adaptive-thresholding.ipynb
+├── Advanced-histogram-equalization-CLAHE.ipynb
+├── Counting Objects with OpenCV.py
+├── Document-scanning.ipynb
+├── English-Alphabet-classification-UCI-dataset.ipynb
+├── English-digit-classification-with-knn.ipynb
+├── Finding-objects-with-feature-matching-and-homography.ipynb
+├── Multiple-object-tracking.ipynb
+├── Otsu-binarization.ipynb
+├── Sharpen_image.ipynb
+├── gamma-correction.py
+├── optical-flow.ipynb
+└── persian-digit-classification-with-knn.ipynb
